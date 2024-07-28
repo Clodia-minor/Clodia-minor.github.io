@@ -9,12 +9,12 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #e61c5d;
+  background: #4eeee1;
 }
 
 ::selection {
   color: #fff;
-  background: #e61c5d;
+  background: #4eeee1;
 }
 
 a {
@@ -126,7 +126,7 @@ textarea.form-control {
   height: 50%;
   width: 0%;
   z-index: -1;
-  background: #e61c5d;
+  background: #4eeee1;
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
@@ -345,7 +345,7 @@ textarea.form-control {
 }
 
 .visit-section .visit a:hover {
-  color: #e61c5d;
+  color: #4eeee1;
 }
 
 .visit-section .visit img {
@@ -361,7 +361,7 @@ textarea.form-control {
 
 .visit-section .reviews-star span {
   font-size: 18px;
-  color: #e61c5d;
+  color: #4eeee1;
 }
 
 .visit-section .reviews-count {
@@ -478,7 +478,7 @@ textarea.form-control {
 }
 
 .post .media-custom a:hover {
-  color: #e61c5d;
+  color: #4eeee1;
 }
 
 .post .media-custom .media-body {
@@ -920,7 +920,7 @@ textarea.form-control {
 }
 
 .custom-pagination .page-item.active .page-link {
-  background: #dc3545;
+  background: #4eeee1;
   -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
 }
