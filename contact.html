@@ -95,29 +95,31 @@
         <div class="row">
           <div class="col-md-7">
             
-            <form action="https://api.web3forms.com/submit" method="POST" class="bg-white p-md-5 p-4 mb-5" style="margin-top: -150px;">
+            <form action="https://api.web3forms.com/submit" method="POST" class="bg-white p-md-5 p-4 mb-5 " style="margin-top: -150px;">
               <input type="hidden" name="access_key" value="f8725a35-a77a-4b51-a79b-f9c52ff58da3">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name">Nome</label>
-                  <input type="text" id="name" class="form-control ">
+                  <input type="text" name="name" id="name" class="form-control " required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="name">Cognome</label>
+                  <input type="text" name="cognome" id="name" class="form-control " required>
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="phone">Telefono</label>
-                  <input type="text" id="phone" class="form-control ">
+                  <input type="text" name="phone" id="phone" class="form-control " required>
                 </div>
-              </div>
-          
-              <div class="row">
-                <div class="col-md-12 form-group">
+                <div class="col-md-6 form-group">
                   <label for="email">Email</label>
-                  <input type="email" id="email" class="form-control ">
+                  <input type="email" name="email" id="email" class="form-control " required>
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="message">Scrivi un messaggio</label>
-                  <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+                  <textarea name="message" id="message"  class="form-control " cols="30" rows="8" required></textarea>
                 </div>
               </div>
               <div class="row">
