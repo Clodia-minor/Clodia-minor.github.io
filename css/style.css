@@ -11,7 +11,9 @@ body {
   color: #fff;
   background: #4eeee1;
 }
-
+#ciao{
+  background-image: "/img/round.png";
+}
 ::selection {
   color: #fff;
   background: #4eeee1;
