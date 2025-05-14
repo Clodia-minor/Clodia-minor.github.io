@@ -42,7 +42,7 @@
                       <ul class="list-unstyled menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="hotel.html">Appartamenti</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">FAQ</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contattaci</a></li>
                       </ul>
@@ -52,7 +52,7 @@
                         <div class="col-md-6 mb-5">
                           <h3>Contact Info</h3>
                           <p>Viale Sebastiano Venier, N 20 <br> Chioggia VE 30015</p>
-                          <p>residenceclodiaminor@gmail.com</p>
+                          <p>clodiaminor@hotmail.it</p>
                           <p>(+39) 328 074 7215</p>
                           <p>(+39) 041 491 274</p>
                           
@@ -82,7 +82,6 @@
         <div class="row site-hero-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center">
             <h1 class="heading" data-aos="fade-up">Contattaci</h1>
-            <p class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="100">Get in touch with us.</p>
           </div>
         </div>
         <!-- <a href="#" class="scroll-down">Scroll Down</a> -->
@@ -96,36 +95,40 @@
         <div class="row">
           <div class="col-md-7">
             
-            <form action="https://api.web3forms.com/submit" method="POST" class="bg-white p-md-5 p-4 mb-5 " style="margin-top: -150px;">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="bg-white p-md-5 p-4 mb-5 " style="margin-top: -150px;">
               <input type="hidden" name="access_key" value="f8725a35-a77a-4b51-a79b-f9c52ff58da3">
+              <input type="hidden" name="subject" value="Nuova richiesta dal sito Clodia Minor">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Nome</label>
-                  <input type="text" name="name" id="name" class="form-control " required>
+                  <label for="name">Nome e Cognome</label>
+                  <input type="text" name="Nome e Cognome" id="name" class="form-control" required>
                 </div>
                 <div class="col-md-6 form-group">
-                  <label for="name">Cognome</label>
-                  <input type="text" name="cognome" id="name" class="form-control " required>
+                  <label for="adults_children">Numero adulti/bambini</label>
+                  <input type="text" name="Numero adulti/bambini" id="adults_children" class="form-control" required>
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="phone">Telefono</label>
-                  <input type="text" name="phone" id="phone" class="form-control " required>
+                  <input type="text" name="Telefono" id="phone" class="form-control">
                 </div>
                 <div class="col-md-6 form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="email" id="email" class="form-control " required>
+                  <input type="email" name="Email" id="email" class="form-control" required>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="period">Periodo richiesto</label>
+                  <input type="text" name="Periodo" id="period" class="form-control" required>
                 </div>
               </div>
-
               <div class="row">
                 <div class="col-md-12 form-group">
                   <label for="message">Scrivi un messaggio</label>
-                  <textarea name="message" id="message"  class="form-control " cols="30" rows="8" required></textarea>
+                  <textarea name="Messaggio" id="message" class="form-control" cols="30" rows="8"></textarea>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="submit" value="Invia il messaggio " class="btn btn-primary">
+                  <input type="submit" value="Invia il messaggio" class="btn btn-primary btn-gradient-elegant">
                 </div>
               </div>
             </form>
@@ -133,14 +136,46 @@
           </div>
           <div class="col-md-5">
             <div class="row">
-              <div class="col-md-10 ml-auto contact-info">
-                <p><span class="d-block">Indirizzo:</span> <span> Viale Sebastiano Venier, N 20</span></p>
-                <p><span class="d-block">Telefono:</span> <span> (+39) 328 074 7215</span></p>
-                <p><span class="d-block">Email:</span> <span> residenceclodiaminor@gmail.com</span></p>
+              <div class="col-md-12 ml-auto contact-info">
+                <h3 class="mb-3" style="font-family: 'Dancing Script', cursive, 'Playfair Display', times, serif; font-size: 2rem; color: #003366;">Appartamenti Clodia Minor</h3>
+                <div style="margin-bottom: 18px; display: flex; align-items: flex-start;">
+                  <span class="fa fa-map-marker" style="color:#003366; margin-right:10px; margin-top: 3px;"></span>
+                  <div>
+                    <a href="https://www.google.it/maps/place/Via+Sebastiano+Venier,+20,+30015+Chioggia+VE/@45.1975726,12.3007254,17z/data=!3m1!4b1!4m6!3m5!1s0x477e991ccc8d6c4d:0xadaa1372ad734e7b!8m2!3d45.1975726!4d12.3007254!16s%2Fg%2F11c25xbv52?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="address-link" style="font-family: 'Dancing Script', cursive, 'Playfair Display', times, serif; font-size: 1.35rem; color: #0077b6; font-weight: bold; letter-spacing: 0.5px; transition: color 0.3s, text-shadow 0.3s; text-decoration: underline;">
+                      Viale Sebastiano Venier, 20<br>30015 Chioggia (VE)
+                    </a>
+                  </div>
+                </div>
+                <div style="margin-bottom: 18px; display: flex; align-items: flex-start;">
+                  <span class="fa fa-phone" style="color:#003366; margin-right:10px; margin-top: 3px;"></span>
+                  <div>
+                    Telefoni:<br>
+                    <a href="tel:+39041491274" style="color:#003366; font-weight:bold; text-decoration:underline;">+39 041 491274<br>328 0747215</a>
+                  </div>
+                </div>
+                <div style="margin-bottom: 18px; display: flex; align-items: flex-start;">
+                  <span class="fa fa-envelope" style="color:#003366; margin-right:10px; margin-top: 3px;"></span>
+                  <div>
+                    Email:<br>
+                    <a href="mailto:clodiaminor@hotmail.it" style="color:#003366; font-weight:bold; text-decoration:underline;">clodiaminor@hotmail.it</a>
+                  </div>
+                </div>
+                <div style="display: flex; align-items: flex-start; margin-top: 18px;">
+                  <span class="fa fa-whatsapp" style="color:#128C7E; margin-right:10px; margin-top: 3px; font-size: 1.3em;"></span>
+                  <div>
+                    <span style="font-weight:bold; color:#128C7E;">Chatta su WhatsApp:</span><br>
+                    <a href="https://wa.me/393296849859" target="_blank" style="color:#128C7E; font-weight:bold; text-decoration:underline; font-size:1.08rem;">Invia un messaggio WhatsApp</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <!-- Testo informativo orari visita -->
+      <div style="text-align: center; color: #111; font-size: 0.95rem; margin: 24px 0 0 0;">
+        <span style="font-weight: bold;">Contattaci</span> senza impegno per maggiori informazioni per un preventivo personalizzato <br>
+        <span style="font-weight: bold;">Per farci visita:</span> Febbraio-Aprile ogni giorno con preavviso, Maggio-Settembre ogni giorno dalle 10:00 alle 20:00
       </div>
     </section>
     
@@ -149,7 +184,7 @@
         <div class="row mb-4">
           <div class="col-md-3 mb-5">
             <ul class="list-unstyled link">
-              <li><a href="about.html">About Us</a></li>
+              <li><a href="about.html">FAQ</a></li>
               <li><a href="https://www.termsfeed.com/live/c1cf9501-2e91-4ba8-89c2-b205d07258f9">Privacy Policy</a></li>
 
             </ul>
@@ -162,19 +197,17 @@
           </div>
           <div class="col-md-3 mb-5 pr-md-5 contact-info">
             <p><span class="d-block">Indirizzo:</span> <span> Viale Sebastiano Venier, N 20 <br> Chioggia VE 30015</span></p>
-            <p><span class="d-block">P.Iva:</span> <span> 02705940274</span></p>
+            <p><span class="d-block">P.Iva:</span> <span> Alessandra s.a.s - 02705940274</span></p>
 
           </div>
           <div class="col-md-3 mb-5 pr-md-5 contact-info">
-            <p><span class="d-block">Telefono:</span> <span> (+39) 328 074 7215 </span> <p>(+39) 041 491 274</p></p>
-            <p><span class="d-block">Email:</span> <span> residenceclodiaminor@gmail.com</span></p>
+            <p><span class="d-block">Telefono:</span> <span> (+39) 328 074 7215<br>(+39) 041 491 274</span></p>
+            <p><span class="d-block">Email:</span> <span> clodiaminor@hotmail.it</span></p>
 
           </div>
         </div>
         <div class="row bordertop pt-5">
-          <p class="col-md-6 text-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Credits To <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <p class="col-md-6 text-left">© All Rights Reserved To SIF</p>
             
           <p class="col-md-6 text-right social">
             <a href="https://www.tripadvisor.it/Hotel_Review-g194738-d6599670-Reviews-Appartamenti_Clodia_Minor-Chioggia_Veneto.html?m=19905"><span class="fa fa-tripadvisor"></span></a>
@@ -192,5 +225,31 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      var optionalFields = ['phone', 'message'];
+      optionalFields.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el && !el.value.trim()) {
+          el.value = '-';
+        }
+      });
+    });
+    </script>
+    <style>
+    .address-link {
+      font-family: 'Dancing Script', cursive, 'Playfair Display', times, serif;
+      font-size: 1.35rem;
+      color: #0077b6 !important;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      transition: color 0.3s, text-shadow 0.3s;
+      text-decoration: underline;
+    }
+    .address-link:hover, .address-link:focus {
+      color: #003366 !important;
+      text-shadow: 0 2px 8px #b3e0ff;
+    }
+    </style>
   </body>
 </html>

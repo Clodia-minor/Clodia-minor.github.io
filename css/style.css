@@ -9,14 +9,14 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #4eeee1;
+  background: #0dc4dd;
 }
 #ciao{
   background-image: "/img/round.png";
 }
 ::selection {
   color: #fff;
-  background: #4eeee1;
+  background: #0dc4dd;
 }
 
 a {
@@ -91,7 +91,8 @@ textarea.form-control {
   color: #fff;
   font-weight: bold;
   line-height: 1;
-  font-family: "Playfair+Display", times, serif;
+  font-family: 'Dancing Script', cursive, 'Playfair Display', times, serif;
+  font-style: italic;
 }
 
 .site-navbar {
@@ -128,7 +129,7 @@ textarea.form-control {
   height: 50%;
   width: 0%;
   z-index: -1;
-  background: #4eeee1;
+  background: #0dc4dd;
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
@@ -204,7 +205,8 @@ textarea.form-control {
 
 .site-hero-inner .heading {
   font-size: 80px;
-  font-family: "Playfair+Display", times, serif;
+  font-family: 'Dancing Script', cursive, 'Playfair Display', times, serif;
+  font-style: italic;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -347,7 +349,7 @@ textarea.form-control {
 }
 
 .visit-section .visit a:hover {
-  color: #4eeee1;
+  color: #0dc4dd;
 }
 
 .visit-section .visit img {
@@ -363,7 +365,7 @@ textarea.form-control {
 
 .visit-section .reviews-star span {
   font-size: 18px;
-  color: #4eeee1;
+  color: #0dc4dd;
 }
 
 .visit-section .reviews-count {
@@ -480,7 +482,7 @@ textarea.form-control {
 }
 
 .post .media-custom a:hover {
-  color: #4eeee1;
+  color: #0dc4dd;
 }
 
 .post .media-custom .media-body {
@@ -730,6 +732,8 @@ textarea.form-control {
 .footer-section {
   background: #1a1a1a;
   color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-section a {
@@ -746,7 +750,7 @@ textarea.form-control {
 
 .footer-section .bordertop {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .footer-section .contact-info span.d-block {
@@ -874,6 +878,10 @@ textarea.form-control {
   border-color: #343a40;
 }
 
+.contact-section {
+  background-color: #b0c4de !important;
+}
+
 .contact-section .contact-info p {
   color: white;
   font-family: "Playfair+Display", times, serif;
@@ -922,7 +930,35 @@ textarea.form-control {
 }
 
 .custom-pagination .page-item.active .page-link {
-  background: #4eeee1;
+  background: #0dc4dd;
   -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-gradient-elegant {
+  background: linear-gradient(90deg, #003366 0%, #4f8edc 60%, #b3e0ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.3s, color 0.3s;
+}
+.btn-gradient-elegant:hover, .btn-gradient-elegant:focus {
+  background: linear-gradient(90deg, #003366 0%, #4f8edc 80%, #b3e0ff 100%);
+  color: #003366;
+}
+
+.custom-btn-white {
+  background: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  font-weight: bold;
+  box-shadow: 0 4px 16px 0 rgba(0, 51, 102, 0.10);
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.custom-btn-white:hover, .custom-btn-white:focus {
+  background: #b3e0ff !important;
+  color: #003366 !important;
+  box-shadow: 0 8px 24px 0 rgba(0, 51, 102, 0.18);
 }
